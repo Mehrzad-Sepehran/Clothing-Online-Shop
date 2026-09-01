@@ -228,9 +228,6 @@
   .w-8 {
     width: calc(var(--spacing) * 8);
   }
-  .w-8\/12 {
-    width: calc(8 / 12 * 100%);
-  }
   .w-9 {
     width: calc(var(--spacing) * 9);
   }
@@ -317,9 +314,6 @@
   }
   .bg-\[\#f7f9f9\] {
     background-color: #f7f9f9;
-  }
-  .bg-\[16333a\] {
-    background-color: 16333a;
   }
   .bg-topbar-background {
     background-color: var(--color-topbar-background);
@@ -432,17 +426,11 @@
     transition-duration: 200ms;
   }
   @media (hover: hover) {
-    .hover\:bg-\[\#e9f3f1\]:hover {
-      background-color: #e9f3f1;
-    }
     .hover\:bg-hover-bg:hover {
       background-color: var(--color-hover-bg);
     }
     .hover\:bg-hover-tx:hover {
       background-color: var(--color-hover-tx);
-    }
-    .hover\:text-\[\#078c80\]:hover {
-      color: #078c80;
     }
     .hover\:text-hover-bg:hover {
       color: var(--color-hover-bg);
@@ -463,9 +451,6 @@
     .sm\:flex {
       display: flex;
     }
-    .sm\:gap-1 {
-      gap: var(--spacing);
-    }
   }
   @media (width >= 48rem) {
     .md\:hidden {
@@ -473,9 +458,6 @@
     }
     .md\:justify-between {
       justify-content: space-between;
-    }
-    .md\:gap-1 {
-      gap: var(--spacing);
     }
     .md\:gap-2 {
       gap: calc(var(--spacing) * 2);
