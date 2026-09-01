@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+@font-face {
+  font-family: "Vazirmatn";
+  src: url(../fonts/Vazir/Vazirmatn-Regular.ttf);
+}
+
+@theme {
+  --font-Vazirmatn: "Vazirmatn";
+  --color-background: #132d35;
+  --color-foreground: #d9f5ec;
+  --container-smd: 44rem;
+}
