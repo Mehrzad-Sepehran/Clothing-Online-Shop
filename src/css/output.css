@@ -742,6 +742,9 @@
     .sm\:gap-5 {
       gap: calc(var(--spacing) * 5);
     }
+    .sm\:overflow-auto {
+      overflow: auto;
+    }
   }
   @media (width >= 48rem) {
     .md\:block {
