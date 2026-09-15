@@ -511,7 +511,18 @@
     <header class="w-full px-3 md:px-6 pt-6">
       <div class="max-w-350 h-130 mx-auto rounded-4xl overflow-hidden relative">
         <div
-          class="absolute inset-0 bg-cover bg-position-(--hero-bg-position) bg-[linear-gradient(90deg,rgb(23,54,59)_0%,rgba(23,54,59,0.6)_28%,transparent_62%),url(/src/images/slider-1.jpg)] blur-[1px]"
+          class="absolute inset-0 bg-cover bg-position-(--hero-bg-position) blur-[1px]"
+          id=""
+          style="
+            background-image:
+              linear-gradient(
+                90deg,
+                rgb(23, 54, 59) 0%,
+                rgba(23, 54, 59, 0.6) 28%,
+                transparent 62%
+              ),
+              url(./src/images/slider-1.jpg);
+          "
         ></div>
 
         <div class="relative w-[min(580px,75%)] py-16 px-[7%] z-10">
